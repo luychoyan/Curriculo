@@ -1,7 +1,7 @@
 * {
     padding: 3px;
     margin: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
 
     width: 700px;
     height: 1020px;
+    padding: 10px;
 
     border: 1px solid rgb(119, 118, 118);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.466);
@@ -20,12 +21,33 @@ body {
 
 header {
     display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+#caixa-1 {
+    display: flex;
     flex-direction: row;
-    width: 600px;
+    margin: 0px 30px 0px 0px;
+}
+
+#endereco-email {
+    margin-top: 50px;
+}
+
+#celular {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+img {
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 20px;
 }
 
 main {
-    width: 600px;
+    width: 700px;
 }
 
 h2 {
